@@ -1,0 +1,189 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+	background-image:url(../img/Unknown.jpg)
+}
+
+/*Inicia el menu de arriba*/
+
+.nav{
+  width: 100%;
+  background: rgba(0,0,0,0.50);
+  height: 60px;
+  position: fixed;
+	z-index: 100;
+}
+
+/*.hero{
+  height: 70vh;
+  background: grey;
+  background-image: url('studio.jpg');
+  background-size: cover;
+}*/
+
+.menu{
+	height: 40px;
+	width: 400px;
+	position: absolute; top:10px; right: 20px;
+}
+
+.menu li{
+	height: 40px;
+	width: 60px;
+	background-color:rgba(54,54,54,0.84);
+	float: left;
+	list-style-type: none;
+	margin: 0 20px;
+	border-radius: 15%; 
+}
+
+.menu li:hover{
+	background-color:rgba(191,191,191,0.84);
+}
+
+.menu a{
+	text-decoration: none;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color:#FFFFFF;
+	font-size: 16px;
+	text-align: center;
+	line-height: 35px;
+}
+
+/*parte del Flex Slider*/
+
+.square-text{
+	width: 350px;
+	height: 160px;
+	background-color: rgba(0,0,0,0.66);
+	position: absolute; bottom: 65px;
+	padding: 10px 5px;
+	z-index: 200;
+	text-align: justify;
+	
+}
+
+.square-text h3{
+	margin: 8px 10px;
+	color: #DAAF1A;
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	text-align: left;
+	line-height: 25px;
+}
+
+.square-text p{
+	color:#FFFFFF;
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	line-height: 23px;
+}
+
+/*Inician Redes Sociales*/
+
+.RS{
+	width: 100%;
+	height: 50px;
+	background-color:#000000;
+}
+
+/*Inicio del scroll*/
+
+.scrollable-container{
+  height: 35vh;
+  background: orange;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.scrollable{
+  float: left;
+  width: 25%;
+  background: red;
+  height: 35vh;
+  display: inline-block;
+  margin: 0;
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+  text-align: center;
+}
+
+/*.description{
+  margin-top: 30%;
+  width: 90%;
+  height: 50%;
+  background: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  opacity: 0;
+}*/
+
+.visible{
+  opacity: 1;
+}
+
+.scrollable:hover {
+  transform: scale(1.2);
+}
+
+.s1{
+  background-image: url('1.jpg');
+  background-size: cover;
+}
+.s2{
+  background-image: url('2.jpg');
+  background-size: cover;
+}
+.s3{
+  background-image: url('3.jpg');
+  background-size: cover;
+}
+.s4{
+  background-image: url('4.jpg');
+  background-size: cover;
+}
+
+
+/*Estos son los recuadros rqueños en donde están las fotos pequeñas*/
+.min-square{
+	width: 300px;
+	height: 100px;
+	background-color: rgba(0,0,0,0.66);
+	position: relative; bottom: 120px; left: 10px;
+	visibility:hidden
+}
+
+.min-square h3{
+	margin: 8px 14px;
+	color: #DAAF1A;
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	text-align: left;
+	line-height: 28px;
+}
+
+.min-square p{
+	color:#FFFFFF;
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	line-height: 20px;
+	font-size: 12px;
+	text-align: left;
+	margin: 5px 5px;
+}
+
+footer{
+  height: 50px;
+  background: black;
+  width: 100%;
+}
+
+footer p{
+	color: white;
+	text-align: center;
+	line-height: 50px;
+}

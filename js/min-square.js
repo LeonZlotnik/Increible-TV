@@ -1,0 +1,52 @@
+// JavaScript Document
+$(document).ready(function(){
+	$("#scroll01").mouseover(function(){
+		$("#min01").css({
+			"visibility":"visible",
+		});
+	});
+	$("#scroll01").mouseout(function(){
+		$("#min01").css({
+			"visibility":"hidden",
+		});
+	});
+});
+
+$(document).ready(function(){
+	$("#scroll02").mouseover(function(){
+		$("#min02").css({
+			"visibility":"visible",
+		});
+	});
+	$("#scroll02").mouseout(function(){
+		$("#min02").css({
+			"visibility":"hidden",
+		});
+	});
+});
+
+$(document).ready(function(){
+	$("#scroll03").mouseover(function(){
+		$("#min03").css({
+			"visibility":"visible",
+		});
+	});
+	$("#scroll03").mouseout(function(){
+		$("#min03").css({
+			"visibility":"hidden",
+		});
+	});
+});
+
+$(document).ready(function(){
+	$("#scroll04").mouseover(function(){
+		$("#min04").css({
+			"visibility":"visible",
+		});
+	});
+	$("#scroll04").mouseout(function(){
+		$("#min04").css({
+			"visibility":"hidden",
+		});
+	});
+});

@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Content Reception</title>
+<link rel="stylesheet" href="css/reception-style.css" type="text/css">
+<link rel="stylesheet" href="woocommerce-FlexSlider-0d95828/flexslider.css">
+<script src="woocommerce-FlexSlider-0d95828/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="woocommerce-FlexSlider-0d95828/jquery.flexslider-min.js"></script>
+<script type="text/javascript">
+	$(window).load(function() {
+  $('.flexslider').flexslider({
+    animation: "slide"
+  });
+});
+	</script>
+</head>
+
+<body>
+	<!--Menu de inicio, solamente me falta ajustar el texto de los botones mejor-->
+<nav class="nav">
+	<img class="logo" src="img/tv.png" height="80px" width="80px" alt="">
+	<ul class="menu">
+		<a href=""><li>About</li></a>
+		<a href=""><li>Contact</li></a>
+		<a href=""><li>News</li></a>
+		<a href="index.html"><li>Main</li></a>
+	</ul>
+</nav>
+    <!--Aquí inicia el flex slider, con las imagenes y los textos-->
+     <section id="slider" class="flexslider">
+  <ul class="slides">
+    <li>
+      <img src="img/la-doctora.jpg"/>
+      <div class="square-text">
+      <h3>Lorem ipsum dolor sit amet</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni illum earum, eveniet eaque magnam, iusto quos deserunt quibusdam! Eos sed non officia tenetur fugit, minus consectetur eum voluptatibus est praesentium.</p></div>
+    </li>
+    <li>
+      <img src="img/parto.jpg"/>
+      <div class="square-text">
+      <h3>Lorem ipsum dolor sit amet</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni illum earum, eveniet eaque magnam, iusto quos deserunt quibusdam! Eos sed non officia tenetur fugit, minus consectetur eum voluptatibus est praesentium.</p></div>
+    </li>
+    <li>
+      <img src="img/operacion.jpg"/>
+        <div class="square-text">
+        <h3>Lorem ipsum dolor sit amet</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni illum earum, eveniet eaque magnam, iusto quos deserunt quibusdam! Eos sed non officia tenetur fugit, minus consectetur eum voluptatibus est praesentium.</p></div>
+    </li>
+    <li>
+      <img src="img/dococ_edit.jpg"/>
+        <div class="square-text">
+        <h3>Lorem ipsum dolor sit amet</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni illum earum, eveniet eaque magnam, iusto quos deserunt quibusdam! Eos sed non officia tenetur fugit, minus consectetur eum voluptatibus est praesentium.</p></div>
+    </li>
+  </ul>
+	</section>
+    
+    <section class="main-content">
+    	<a href="content.html"><img src="img/doc-main-cont.jpg" width="500px;" height="250px;" alt=""></a>
+    	<div class="main-text">
+    		<h3>Lorem ipsum dolor sit amet, consectetur adipisicing.</h3>
+    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, sint! Obcaecati, doloribus, est. Cum illum atque blanditiis inventore odit harum corrupti, cupiditate maiores rem voluptate reiciendis facere architecto, libero dignissimos. Nihil ipsum quae delectus laboriosam, quaerat et iusto sed. Voluptas quos minus temporibus recusandae eligendi alias possimus ipsa facilis consectetur animi similique, dolores dolorum ipsum eum atque a quo debitis!</p>
+    	</div>
+    	<div class="ribbon-ads">
+    		<img src="" alt="">
+		</div>
+   
+    </section>
+     
+  		<!--Comienza el scroll de contenidos-->  
+      <ul class="scrollable-container">
+        <li class="scrollable s1" id="scroll01">
+          <a href="content.html"><img src="img/la-doctora.jpg" width="320" height="228" alt=""></a>
+          <div class="min-square" id="min01">
+          	<h3>Espisodio #:</h3>
+          	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></div>
+        </li>
+        <li class="scrollable s2" id="scroll02">
+          <a href=""><img src="img/quimicos.jpg" width="320" height="228" alt=""></a>
+          <div class="min-square" id="min02">
+          	<h3>Espisodio #:</h3>
+          	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></div>
+        </li>
+        <li class="scrollable s3" id="scroll03">
+          <a href=""><img src="img/efectos-medicos.jpg" width="320" height="228" alt=""></a>
+          <div class="min-square" id="min03">
+          	<h3>Espisodio #:</h3>
+          	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p></div>
+        </li>
+        <li class="scrollable s4" id="scroll04">
+          <a href=""><img src="img/parto.jpg" width="320" height="228" alt=""></a>
+          <div class="min-square" id="min04">
+          	<h3>Espisodio #:</h3>
+          	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p></div>
+        </li>
+      </ul>
+      
+      
+      <footer>
+      	<p>2018 Increible TV | Todos los derechos reservados</p>
+      </footer>
+      
+
+
+<script src="js/home.js" type="text/javascript"></script>
+<script src="js/min-square.js" type="text/javascript"></script>
+
+</body>
+</html>

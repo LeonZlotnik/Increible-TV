@@ -1,0 +1,100 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+/*Inicia el menu de arriba*/
+
+.nav{
+  width: 100%;
+  background: rgba(0,0,0,0.50);
+  height: 60px;
+  position: fixed;
+	z-index: 100;
+}
+
+/*.hero{
+  height: 70vh;
+  background: grey;
+  background-image: url('studio.jpg');
+  background-size: cover;
+}*/
+
+.menu{
+	height: 40px;
+	width: 400px;
+	position: absolute; top:10px; right: 20px;
+}
+
+.menu li{
+	height: 40px;
+	width: 60px;
+	background-color:rgba(54,54,54,0.84);
+	float: left;
+	list-style-type: none;
+	margin: 0 20px;
+	border-radius: 15%; 
+}
+
+.menu li:hover{
+	background-color:rgba(191,191,191,0.84);
+}
+
+.menu a{
+	text-decoration: none;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color:#FFFFFF;
+	font-size: 16px;
+	text-align: center;
+	line-height: 35px;
+}
+
+.skyscraper1{
+	width: 160px;
+	height: 600px;
+	background-color:#000000;
+	border: 3px solid #A1A1A1;
+	position: absolute; top: 80px; left: 20px;
+}
+
+video{
+	position: absolute; top:20px; left: 215px;
+}
+
+.skyscraper2{
+	width: 160px;
+	height: 600px;
+	background-color:#000000;
+	border: 3px solid #A1A1A1;
+	position: absolute; top: 80px; right: 10px;
+}
+
+textarea{
+	position: absolute; top: 660px; left: 215px;
+	width: 840px;
+	height: 95px;
+	padding: 5px;
+}
+
+input{
+	position:absolute; top:775px; left: 230px;
+}
+
+/*Arreglar correctamente el footer*/
+footer{
+	position: absolute; top:800px;; left:0;
+  height: 50px;
+  background: black;
+  width: 100%;
+}
+
+footer p{
+	color: white;
+	text-align: center;
+	line-height: 50px;
+}
