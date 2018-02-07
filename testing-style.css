@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: black;
+}
+ 
+/*
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+.card {
+    display: inline-block;
+	width: 305px;
+	height: 205px;
+	background-color:#142EF1;
+
+}
+
+.card:hover{
+	transform: scale(1.1);
+}
+
+.cuadro{
+	background-color: #000000;
+	width: 210px;
+	height: 30px;
+	position: absolute; top: 150px; left: 10px;}
+*/
+/*https://codeburst.io/how-to-create-horizontal-scrolling-containers-d8069651e9c6*/
+
+
+/*INICIO DE MENU DE HAMBURGUESA*/
+
+#mini-menu{
+	position: absolute; top: 10px; right: 10px;
+	width: 39px;
+	height: 37px;
+	background-image: url(../img/hamb_menu-edit.png);
+	background-color:#FFFFFF;
+	border-radius: 15%;
+}
+
+#dropdown{
+	visibility:hidden;
+	background-color:rgba(153,153,153,0.77);
+	height: 210px;
+	width: 120px;
+	position: absolute; top:35px; right: 10px;
+}
+
+#dropdown li{
+	height: 40px;
+	width: 160px;
+	list-style-type: none;
+	margin: 2px -40px;
+}
+
+#dropdown a{
+	margin: auto 50px;
+	text-decoration:none;
+	font-size: 25px;
+	color: #000000;
+}
+
+#dropdown li:hover{
+	background-color: rgba(21,180,235,1.00);
+}
+
+#dropdown a:hover{
+	color: rgba(255,255,255,1.00);
+}
